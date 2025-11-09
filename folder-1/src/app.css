@@ -1,0 +1,10 @@
+.parent{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin:40px;
+  width:91vw;
+  background-color: rgba(67, 66, 66, 0.494);
+  border-radius: 20px;
+  padding:20px;
+}

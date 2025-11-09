@@ -1,0 +1,89 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.card{
+
+  height:300px;
+  width:270px;
+  border:1px solid rgba(213, 198, 198, 0.188);
+  border-radius: 20px;
+  padding:15px;
+  margin:20px;
+  color:rgb(219, 214, 214);
+  background-color: rgba(28, 27, 27, 0.934);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.top{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top>img{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit:fill;
+  
+}
+
+.top button{
+  width:55px;
+  height:30px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border:none;
+  background-color: beige;
+  padding: 4px;
+}
+.top button img{
+  width:20px;
+
+}
+
+.center{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.center > div{
+  display:flex;
+  align-items: center;
+  gap:10px;
+  margin-bottom: 10px;
+}
+
+.center button{
+  border:0.5px solid rgba(255, 255, 255, 0.32);
+  background-color: rgba(56, 55, 55, 0.333);
+  color: rgba(240, 248, 255, 0.385);
+  border-radius:2px;
+  padding:3px;
+  margin-right: 5px;
+  margin-top:10px;
+}
+
+.bottom{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.bottom button{
+  border-radius: 7px;
+  padding:5px;
+  border: none;
+  height: 30px;
+}
+

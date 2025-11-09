@@ -1,13 +1,25 @@
-const App=  () => {
+import Card from "./components/Card.jsx"
+import "./app.css"
+const App = () => {
   return (
     <>
-      <div id="family">
-        <h1>This is a Family Tree</h1>
-        <h4>Mom</h4>
-        <h4>Dad</h4>
-        <h4>Brother</h4>
-        <h4>Sister</h4>
+      <div className="parent">
+        <Card desig="SDE-II" />
+        <Card desig="Buisness Analyst"/>
+        <Card desig="Warehouse Management"/>
+        <Card desig="SDE-II" />
+        <Card desig="Buisness Analyst"/>
+        <Card desig="Warehouse Management"/>
+        <Card desig="SDE-II" />
+        <Card desig="Buisness Analyst"/>
+        <Card desig="Warehouse Management"/>
+        <Card desig="SDE-II" />
+        <Card desig="Buisness Analyst"/>
+        <Card desig="Warehouse Management"/>
+       
+        
       </div>
+      
 
     </>
   )
