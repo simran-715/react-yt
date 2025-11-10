@@ -2,7 +2,7 @@ import React from 'react'
 import Top from "./Top.jsx"
 import Center from "./Center.jsx"
 import Bottom from './Bottom.jsx'
-import "./Card.css"
+import "../styles/Card.css"
 
 const Card=(props)=>{
   return (
