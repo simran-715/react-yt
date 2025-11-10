@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Bottom = () => {
+const Bottom = (props) => {
   return (
     <div className='bottom'>
       <div>
-        <h3>$120/hr</h3>
-        <h5>Mumbai,India</h5>
+        <h4>{props.pay}</h4>
+        <h6>{props.location}</h6>
       </div>
       <button>Apply Now</button>
     </div>

@@ -4,13 +4,13 @@ const Center = (props) => {
   return (
     <div className='center'>
       <div>
-        <h3>Amazon</h3>
-        <h6>3 days ago</h6>
+        <h3>{props.compName}</h3>
+        <h6>{props.duration}</h6>
         </div>
       <h3>{props.desig}</h3>
       <div>
-      <button>Part-Time</button>
-      <button>Senior Level</button>
+        <button>{props.type}</button>
+        <button>{props.level}</button>
       </div>
     </div>
   )

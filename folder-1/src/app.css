@@ -2,9 +2,9 @@
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin:40px;
-  width:91vw;
-  background-color: rgba(67, 66, 66, 0.494);
+  margin:20px;
+  width:95vw;
+  background-color: rgba(31, 29, 29, 0.781);
   border-radius: 20px;
   padding:20px;
 }

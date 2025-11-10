@@ -8,9 +8,10 @@ const Card=(props)=>{
   return (
     <>
       <div className="card">
-        <Top />
+        <Top {...props} />
         <Center {...props} />
-        <Bottom />
+        <hr/>
+        <Bottom {...props} />
 
       </div>
     </>

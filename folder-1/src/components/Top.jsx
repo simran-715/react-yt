@@ -1,9 +1,9 @@
 import React from 'react'
 
-const top = () => {
+const top = (props) => {
   return (
     <div className="top">
-      <img src="https://images.seeklogo.com/logo-png/29/1/amazon-icon-logo-png_seeklogo-297884.png"></img>
+      <img src={props.compLogo}></img>
 
       <button>
         <p>Save</p>
