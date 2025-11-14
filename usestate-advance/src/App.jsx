@@ -31,9 +31,9 @@ function App() {
       <h1>{count}</h1>
       <h2>{arr.join(', ')}</h2>
       <h2>{obj.age}</h2>
-      <button onClick={ChangeNum}>click</button>
-      <button onClick={ChangeArr}>click2</button>
-      <button onClick={ChangeObj}>click3</button>
+      <button className='num' onClick={ChangeNum}>Change number</button>
+      <button className='arr' onClick={ChangeArr}>Change Array</button>
+      <button className='obj' onClick={ChangeObj}>Change Object value</button>
     </>
   )
 }
