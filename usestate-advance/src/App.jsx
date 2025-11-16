@@ -33,7 +33,7 @@ function App() {
       <h2>{obj.age}</h2>
       <button className='num' onClick={ChangeNum}>Change number</button>
       <button className='arr' onClick={ChangeArr}>Change Array</button>
-      <button className='obj' onClick={ChangeObj}>Change Object value</button>
+      <button className='obj' onClick={ChangeObj}>Change Object value once</button>
     </>
   )
 }
